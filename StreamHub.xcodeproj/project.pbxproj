@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AEAEB6C82FE62C3D0096B66F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEAEB6B22FE62C3A0096B66F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEAEB6B92FE62C3B0096B66F;
+			remoteInfo = StreamHub;
+		};
+		AEAEB6D22FE62C3D0096B66F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEAEB6B22FE62C3A0096B66F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEAEB6B92FE62C3B0096B66F;
+			remoteInfo = StreamHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEAEB6BA2FE62C3B0096B66F /* StreamHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAEB6C72FE62C3D0096B66F /* StreamHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAEB6D12FE62C3D0096B66F /* StreamHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AEAEB6BC2FE62C3B0096B66F /* StreamHub */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StreamHub;
+			sourceTree = "<group>";
+		};
+		AEAEB6CA2FE62C3D0096B66F /* StreamHubTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StreamHubTests;
+			sourceTree = "<group>";
+		};
+		AEAEB6D42FE62C3D0096B66F /* StreamHubUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StreamHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEAEB6B72FE62C3B0096B66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AEAEB6C42FE62C3D0096B66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		AEAEB6CE2FE62C3D0096B66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEAEB6B12FE62C3A0096B66F = {
+			isa = PBXGroup;
+			children = (
+				AEAEB6BC2FE62C3B0096B66F /* StreamHub */,
+				AEAEB6CA2FE62C3D0096B66F /* StreamHubTests */,
+				AEAEB6D42FE62C3D0096B66F /* StreamHubUITests */,
+				AEAEB6BB2FE62C3B0096B66F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEAEB6BB2FE62C3B0096B66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEAEB6BA2FE62C3B0096B66F /* StreamHub.app */,
+				AEAEB6C72FE62C3D0096B66F /* StreamHubTests.xctest */,
+				AEAEB6D12FE62C3D0096B66F /* StreamHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEAEB6B92FE62C3B0096B66F /* StreamHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAEB6D92FE62C3D0096B66F /* Build configuration list for PBXNativeTarget "StreamHub" */;
+			buildPhases = (
+				AEAEB6B62FE62C3B0096B66F /* Sources */,
+				AEAEB6B72FE62C3B0096B66F /* Frameworks */,
+				AEAEB6B82FE62C3B0096B66F /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				AEAEB6BC2FE62C3B0096B66F /* StreamHub */,
+			);
+			name = StreamHub;
+			productName = StreamHub;
+			productReference = AEAEB6BA2FE62C3B0096B66F /* StreamHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEAEB6C62FE62C3D0096B66F /* StreamHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAEB6DC2FE62C3D0096B66F /* Build configuration list for PBXNativeTarget "StreamHubTests" */;
+			buildPhases = (
+				AEAEB6C32FE62C3D0096B66F /* Sources */,
+				AEAEB6C42FE62C3D0096B66F /* Frameworks */,
+				AEAEB6C52FE62C3D0096B66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEAEB6C92FE62C3D0096B66F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AEAEB6CA2FE62C3D0096B66F /* StreamHubTests */,
+			);
+			name = StreamHubTests;
+			productName = StreamHubTests;
+			productReference = AEAEB6C72FE62C3D0096B66F /* StreamHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEAEB6D02FE62C3D0096B66F /* StreamHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAEB6DF2FE62C3D0096B66F /* Build configuration list for PBXNativeTarget "StreamHubUITests" */;
+			buildPhases = (
+				AEAEB6CD2FE62C3D0096B66F /* Sources */,
+				AEAEB6CE2FE62C3D0096B66F /* Frameworks */,
+				AEAEB6CF2FE62C3D0096B66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEAEB6D32FE62C3D0096B66F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AEAEB6D42FE62C3D0096B66F /* StreamHubUITests */,
+			);
+			name = StreamHubUITests;
+			productName = StreamHubUITests;
+			productReference = AEAEB6D12FE62C3D0096B66F /* StreamHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEAEB6B22FE62C3A0096B66F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					AEAEB6B92FE62C3B0096B66F = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					AEAEB6C62FE62C3D0096B66F = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = AEAEB6B92FE62C3B0096B66F;
+					};
+					AEAEB6D02FE62C3D0096B66F = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = AEAEB6B92FE62C3B0096B66F;
+					};
+				};
+			};
+			buildConfigurationList = AEAEB6B52FE62C3B0096B66F /* Build configuration list for PBXProject "StreamHub" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEAEB6B12FE62C3A0096B66F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AEAEB6BB2FE62C3B0096B66F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEAEB6B92FE62C3B0096B66F /* StreamHub */,
+				AEAEB6C62FE62C3D0096B66F /* StreamHubTests */,
+				AEAEB6D02FE62C3D0096B66F /* StreamHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEAEB6B82FE62C3B0096B66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AEAEB6C52FE62C3D0096B66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		AEAEB6CF2FE62C3D0096B66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEAEB6B62FE62C3B0096B66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AEAEB6C32FE62C3D0096B66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		AEAEB6CD2FE62C3D0096B66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEAEB6C92FE62C3D0096B66F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEAEB6B92FE62C3B0096B66F /* StreamHub */;
+			targetProxy = AEAEB6C82FE62C3D0096B66F /* PBXContainerItemProxy */;
+		};
+		AEAEB6D32FE62C3D0096B66F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEAEB6B92FE62C3B0096B66F /* StreamHub */;
+			targetProxy = AEAEB6D22FE62C3D0096B66F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AEAEB6D72FE62C3D0096B66F /* Debug configuration for PBXProject "StreamHub" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = J924GWS9NA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		AEAEB6D82FE62C3D0096B66F /* Release configuration for PBXProject "StreamHub" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = J924GWS9NA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEAEB6DA2FE62C3D0096B66F /* Debug configuration for PBXNativeTarget "StreamHub" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J924GWS9NA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joaoalvess.StreamHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		AEAEB6DB2FE62C3D0096B66F /* Release configuration for PBXNativeTarget "StreamHub" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J924GWS9NA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joaoalvess.StreamHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		AEAEB6DD2FE62C3D0096B66F /* Debug configuration for PBXNativeTarget "StreamHubTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J924GWS9NA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joaoalvess.StreamHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StreamHub";
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		AEAEB6DE2FE62C3D0096B66F /* Release configuration for PBXNativeTarget "StreamHubTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J924GWS9NA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joaoalvess.StreamHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StreamHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StreamHub";
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		AEAEB6E02FE62C3D0096B66F /* Debug configuration for PBXNativeTarget "StreamHubUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J924GWS9NA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joaoalvess.StreamHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = StreamHub;
+			};
+			name = Debug;
+		};
+		AEAEB6E12FE62C3D0096B66F /* Release configuration for PBXNativeTarget "StreamHubUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J924GWS9NA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = joaoalvess.StreamHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = StreamHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEAEB6B52FE62C3B0096B66F /* Build configuration list for PBXProject "StreamHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAEB6D72FE62C3D0096B66F /* Debug configuration for PBXProject "StreamHub" */,
+				AEAEB6D82FE62C3D0096B66F /* Release configuration for PBXProject "StreamHub" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AEAEB6D92FE62C3D0096B66F /* Build configuration list for PBXNativeTarget "StreamHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAEB6DA2FE62C3D0096B66F /* Debug configuration for PBXNativeTarget "StreamHub" */,
+				AEAEB6DB2FE62C3D0096B66F /* Release configuration for PBXNativeTarget "StreamHub" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AEAEB6DC2FE62C3D0096B66F /* Build configuration list for PBXNativeTarget "StreamHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAEB6DD2FE62C3D0096B66F /* Debug configuration for PBXNativeTarget "StreamHubTests" */,
+				AEAEB6DE2FE62C3D0096B66F /* Release configuration for PBXNativeTarget "StreamHubTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AEAEB6DF2FE62C3D0096B66F /* Build configuration list for PBXNativeTarget "StreamHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAEB6E02FE62C3D0096B66F /* Debug configuration for PBXNativeTarget "StreamHubUITests" */,
+				AEAEB6E12FE62C3D0096B66F /* Release configuration for PBXNativeTarget "StreamHubUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEAEB6B22FE62C3A0096B66F /* Project object */;
+	validationLevel = 1;
+}

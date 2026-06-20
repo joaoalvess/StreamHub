@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>3083BB32-2E13-4868-A63A-ECCABDB20F2F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3083BB32-2E13-4868-A63A-ECCABDB20F2F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StreamHub project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StreamHub</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project StreamHub with scheme StreamHub and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>803621340.20301104</real>
+			<key>timeStoppedRecording</key>
+			<real>803621344.314309</real>
+			<key>title</key>
+			<string>Building project StreamHub with scheme StreamHub and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>3083BB32-2E13-4868-A63A-ECCABDB20F2F</string>
+		</dict>
+		<key>5EBD2406-62B0-4D92-BB5B-76C4BD19E31B</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5EBD2406-62B0-4D92-BB5B-76C4BD19E31B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StreamHub project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StreamHub</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project StreamHub with scheme StreamHub and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>803620837.29861701</real>
+			<key>timeStoppedRecording</key>
+			<real>803620842.02100098</real>
+			<key>title</key>
+			<string>Building project StreamHub with scheme StreamHub and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>5EBD2406-62B0-4D92-BB5B-76C4BD19E31B</string>
+		</dict>
+		<key>680FDC0C-18A5-4E99-8F1A-C9B4B96E9770</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>680FDC0C-18A5-4E99-8F1A-C9B4B96E9770.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>StreamHub project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>StreamHub</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project StreamHub with scheme StreamHub and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>803620781.79186201</real>
+			<key>timeStoppedRecording</key>
+			<real>803620784.92553496</real>
+			<key>title</key>
+			<string>Building project StreamHub with scheme StreamHub and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>680FDC0C-18A5-4E99-8F1A-C9B4B96E9770</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

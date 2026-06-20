@@ -1,0 +1,16 @@
+{
+  "source": "/Users/joaoalves/Developer/StreamHub/StreamHub/Features/Home/HeroView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Reproduzir",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 119
+        }
+      }
+    ]
+  },
+  "version": 1
+}
