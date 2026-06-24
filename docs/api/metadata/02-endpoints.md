@@ -105,13 +105,13 @@ curl "$BASE/catalog/movie/tmdb.trending.json"
       "background": "https://...",
       "landscapePoster": "https://...",
       "logo": "https://...",
-      "...": "demais campos — ver 04-schemas.md#metapreview"
+      "...": "demais campos — ver 04-schemas.md#meta"
     }
   ]
 }
 ```
 
-- O array `metas` contém objetos `MetaPreview` (mas **enriquecidos** — esta API retorna em catálogo praticamente todos os campos da ficha, inclusive `trailers`, `links`, `app_extras`). Schema em [04-schemas.md](./04-schemas.md#metapreview).
+- O array `metas` contém objetos `MetaPreview` (mas **enriquecidos** — esta API retorna em catálogo praticamente todos os campos da ficha, inclusive `trailers`, `links`, `app_extras`). Schema em [04-schemas.md](./04-schemas.md#meta).
 - **Tamanho da página** varia por fonte (`pageSize` do manifest):
   - Trakt / `streaming.*` / `mdblist.*`: **50** por página (resposta observada às vezes traz menos — ex.: TMDB devolve ~20 itens por requisição).
   - `mal.*`: **25**.
@@ -249,7 +249,7 @@ Idêntico ao filme, **mais** o array `videos` (um item por episódio) e os campo
 }
 ```
 
-Pontos críticos sobre `videos` (schema em [04-schemas.md](./04-schemas.md#video)):
+Pontos críticos sobre `videos` (schema em [04-schemas.md](./04-schemas.md#video-episódio)):
 
 - **`id` do episódio** = `{idDaSérie}:{season}:{episode}` — ex.: `tt0203259:27:21`. Esse é o ID usado para resolver streams em addons de stream.
 - **`season: 0`** = especiais/extras.
@@ -287,7 +287,7 @@ curl "$BASE/configure"
 # HTTP 200 → text/html (UI web de configuração)
 ```
 
-Página HTML para criar/editar a configuração (gera um novo `{configId}`). **Não faz parte do consumo em runtime** do StreamHub — relevante apenas para gerar/alterar o Config ID. Veja [01-overview.md](./01-overview.md#config-id).
+Página HTML para criar/editar a configuração (gera um novo `{configId}`). **Não faz parte do consumo em runtime** do StreamHub — relevante apenas para gerar/alterar o Config ID. Veja [01-overview.md](./01-overview.md#3-config-id).
 
 ---
 

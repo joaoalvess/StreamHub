@@ -31,7 +31,7 @@ Não é um servidor de streams/vídeo. Ele fornece **listas curadas** (catálogo
 https://aiometadata.elfhosted.com/stremio/{configId}/
 ```
 
-O `{configId}` (`b11959c7-...`) é um identificador **opaco** que referencia uma configuração salva no servidor — define idioma, fontes de metadados ativas, quais catálogos aparecem e em que ordem. Veja [01-overview.md](./01-overview.md#config-id).
+O `{configId}` (`b11959c7-...`) é um identificador **opaco** que referencia uma configuração salva no servidor — define idioma, fontes de metadados ativas, quais catálogos aparecem e em que ordem. Veja [01-overview.md](./01-overview.md#3-config-id).
 
 ## Quickstart (3 chamadas essenciais)
 

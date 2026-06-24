@@ -189,7 +189,7 @@ Listas curadas por ID numérico do MDBList. Os de gênero (tags `catalog-movie`/
 |---|---|---|
 | `trakt.*` | Trakt | trending/popular/recommendations (movie+series) |
 | `tmdb.*` | TMDB | trending, top, top_rated, airing_today |
-| `tvdb.*` | TVDB | trending, genres |
+| `tvdb.*` | TVDB | trending |
 | `mdblist.*` | MDBList | listas por ID numérico |
 | `mal.*` | MyAnimeList | catálogos de anime |
 | `flixpatrol.*` | FlixPatrol | rankings Top 10 |

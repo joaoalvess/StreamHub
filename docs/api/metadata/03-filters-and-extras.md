@@ -112,7 +112,7 @@ O Stremio só oferece **um** controle de filtro tipo dropdown — o `genre`. O A
 | `streaming.*` (movie) | Gênero | 19 | PT-BR |
 | `streaming.*` (series) | Gênero | 16 | PT-BR |
 | `mdblist.*` (gênero) | Gênero | 42–43 | Inglês — **`isRequired: true`** |
-| `tvdb.trending` / `tvdb.genres` | Gênero | 31 | — |
+| `tvdb.trending` | Gênero | 31 | — |
 | `mal.genres` | Gênero de anime | 78 | Inglês (`Isekai`, `Shounen`, `Mecha`…) |
 | `mal.studios` | **Estúdio** | 100 | Nomes de estúdio (`Madhouse`, `MAPPA`, `ufotable`…) |
 | `mal.seasons` | **Temporada** (ano/estação) | 441 | `Spring 2026`, `Winter 2026`, `Fall 2025`… |

@@ -18,7 +18,7 @@ Os três recursos relevantes aqui:
 |---|---|---|---|
 | `catalog` | `/catalog/{type}/{id}.json` | `{ metas: MetaPreview[] }` | Listas de conteúdo (Home, gêneros, Top 10, busca). |
 | `meta` | `/meta/{type}/{id}.json` | `{ meta: MetaDetail }` | Ficha completa de um item (detalhe + episódios). |
-| `subtitles` | `/subtitles/{type}/{id}.json` | `{ subtitles: [] }` | Legendas. **Nesta instância retorna sempre vazio** (veja [02-endpoints.md](./02-endpoints.md#get-subtitles)). |
+| `subtitles` | `/subtitles/{type}/{id}.json` | `{ subtitles: [] }` | Legendas. **Nesta instância retorna sempre vazio** (veja [02-endpoints.md](./02-endpoints.md#get-subtitlestypeidjson)). |
 
 > **Importante para o StreamHub:** o app **não precisa do cliente oficial do Stremio**. O protocolo é HTTP/JSON puro — basta o StreamHub fazer `GET` nas rotas e desserializar. É exatamente isso que significa "consumir nativamente para controle máximo".
 
@@ -100,7 +100,7 @@ Já os **catálogos** usam um conjunto parcialmente diferente de `type` (a chave
 | ETag | Presente (`W/"…"`) — pode ser usado com `If-None-Match`. |
 | Headers custom | `x-manifest-language` (ex.: `pt-BR`), `x-manifest-version` (= `configVersion`). |
 
-> **Implicação de cache:** como o servidor envia `no-store`, o StreamHub deve implementar seu **próprio cache em memória/disco** com TTL definido pelo app (ex.: 5–15 min para catálogos, mais longo para `meta` imutável). Não confie no cache HTTP padrão. Veja [07-integration.md](./07-integration.md#cache).
+> **Implicação de cache:** como o servidor envia `no-store`, o StreamHub deve implementar seu **próprio cache em memória/disco** com TTL definido pelo app (ex.: 5–15 min para catálogos, mais longo para `meta` imutável). Não confie no cache HTTP padrão. Veja [07-integration.md](./07-integration.md#8-cache).
 
 ## Próximos documentos
 
