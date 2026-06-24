@@ -12,9 +12,21 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/StreamHubTests.xctest/Info.plist</key>
+		<data>
+		+vkmuOMAdNSEDN9f24C2Lb+8DoM=
+		</data>
+		<key>PlugIns/StreamHubTests.xctest/StreamHubTests</key>
+		<data>
+		g5BRQbWGI4hmzbnU/xbTyVOPuIc=
+		</data>
+		<key>PlugIns/StreamHubTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		npXzMTPNVsmFFCQYO4eqTvmAAe0=
+		</data>
 		<key>StreamHub.debug.dylib</key>
 		<data>
-		XKuSaTdbNDqRpcCqOKHWQ7rzGUo=
+		XhiRb9QddCx67Oszm9mr4SS/8UI=
 		</data>
 		<key>__preview.dylib</key>
 		<data>
@@ -23,11 +35,32 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>PlugIns/StreamHubTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hlE1VZlZ9WlLH1PgLRaGZCC8DldaS7ZwscXVPxdtfXk=
+			</data>
+		</dict>
+		<key>PlugIns/StreamHubTests.xctest/StreamHubTests</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XSb9snrthPRtSYZPkGfNSAwbsw6/5ZgMZNFc0KdtS6A=
+			</data>
+		</dict>
+		<key>PlugIns/StreamHubTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			48YiJl+9+jwp+BYVAeK9fbiabt8KEBngqdQYGiPeeC8=
+			</data>
+		</dict>
 		<key>StreamHub.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sCGrQrO72JhSSCypQegXZkTZuV+0uYgvtoYgPM24VmI=
+			Nc6b6lf28IxB/y6K1TBFf54fSzI5PvfSBOgXxXZe6E4=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>

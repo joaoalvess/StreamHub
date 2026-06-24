@@ -33,8 +33,8 @@ enum Theme {
     }
 
     enum Size {
-        static let posterHeight: CGFloat = 300
-        static let posterWidth: CGFloat = 200      // 2:3
+        static let posterHeight: CGFloat = 322     // tamanho único de card (Em alta == Top 10)
+        static let posterWidth: CGFloat = 268      // ~4:5
         static let wideCardWidth: CGFloat = 380
         static let wideCardHeight: CGFloat = 214   // 16:9
     }
@@ -56,6 +56,55 @@ enum Theme {
         startPoint: .top,
         endPoint: .bottom
     )
+
+    // Sombreado interno na base do card para legibilidade do gênero.
+    static let genreScrim = LinearGradient(
+        colors: [.black.opacity(0.85), .clear],
+        startPoint: .bottom,
+        endPoint: UnitPoint(x: 0.5, y: 0.5)
+    )
+
+    // Fundo da Home que acompanha a tonalidade do hero atual (camada de tela).
+    static func homeBackground(tint: Color) -> LinearGradient {
+        LinearGradient(
+            stops: [
+                .init(color: tint, location: 0.0),
+                .init(color: bg, location: 0.6)
+            ],
+            startPoint: .top,
+            endPoint: .bottom
+        )
+    }
+}
+
+// Borda translúcida estilo "liquid glass" revelada no foco dos cards.
+struct LiquidGlassFocusBorder: ViewModifier {
+    var isFocused: Bool
+    var cornerRadius: CGFloat = Theme.Radius.card
+
+    func body(content: Content) -> some View {
+        content
+            .overlay {
+                RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                    .strokeBorder(
+                        LinearGradient(
+                            colors: [.white.opacity(0.85), .white.opacity(0.2), .white.opacity(0.5)],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        ),
+                        lineWidth: 3
+                    )
+                    .opacity(isFocused ? 1 : 0)
+            }
+            .shadow(color: .white.opacity(isFocused ? 0.18 : 0), radius: 14)
+            .animation(.easeInOut(duration: 0.2), value: isFocused)
+    }
+}
+
+extension View {
+    func liquidGlassFocusBorder(_ isFocused: Bool, cornerRadius: CGFloat = Theme.Radius.card) -> some View {
+        modifier(LiquidGlassFocusBorder(isFocused: isFocused, cornerRadius: cornerRadius))
+    }
 }
 
 extension Color {

@@ -5,9 +5,28 @@ struct MediaCardView: View {
 
     var body: some View {
         Button(action: {}) {
-            poster
+            PosterCard(item: item)
         }
         .buttonStyle(.card)
+    }
+}
+
+/// Card de pôster base, no tamanho único da Home. Reutilizado pelo Top 10
+/// (passando `rank`). Mostra um sombreado na base do card com o gênero, e a
+/// borda translúcida "liquid glass" quando focado.
+struct PosterCard: View {
+    let item: MediaItem
+    var rank: Int? = nil
+    @Environment(\.isFocused) private var isFocused
+
+    var body: some View {
+        poster
+            .frame(width: Theme.Size.posterWidth, height: Theme.Size.posterHeight)
+            .overlay { Theme.genreScrim }
+            .overlay(alignment: .bottomLeading) { genreLabel }
+            .overlay(alignment: .topLeading) { rankNumeral }
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.card, style: .continuous))
+            .liquidGlassFocusBorder(isFocused)
     }
 
     private var poster: some View {
@@ -29,27 +48,66 @@ struct MediaCardView: View {
                 Theme.bgElevated
             }
         }
-        .frame(width: Theme.Size.posterWidth, height: Theme.Size.posterHeight)
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.card, style: .continuous))
-        .overlay(
-            RoundedRectangle(cornerRadius: Theme.Radius.card, style: .continuous)
-                .strokeBorder(Theme.cardStroke, lineWidth: 1)
-        )
+    }
+
+    @ViewBuilder
+    private var genreLabel: some View {
+        if let genre = item.genres.first {
+            Text(genre)
+                .font(.system(size: 20, weight: .semibold))
+                .foregroundStyle(Theme.textPrimary)
+                .lineLimit(1)
+                .padding(.horizontal, 14)
+                .padding(.bottom, 12)
+        }
+    }
+
+    @ViewBuilder
+    private var rankNumeral: some View {
+        if let rank {
+            Text("\(rank)")
+                .font(.system(size: 108, weight: .heavy))
+                .foregroundStyle(Theme.textPrimary.opacity(0.95))
+                .monospacedDigit()
+                .lineLimit(1)
+                .fixedSize()
+                .shadow(color: .black.opacity(0.5), radius: 10, y: 4)
+                .padding(.leading, 14)
+                .padding(.top, 4)
+                .accessibilityHidden(true)
+        }
     }
 }
 
 #Preview {
-    MediaCardView(
-        item: MediaItem(
-            title: "For All Mankind",
-            kind: .series,
-            genres: ["Drama", "Ficção Científica"],
-            posterURL: URL(string: "https://image.tmdb.org/t/p/w500/q6cYZjQAfvJqGGz0e0HQVwL2zFD.jpg"),
-            backdropURL: nil,
-            synopsis: "Uma releitura da corrida espacial em que a União Soviética chega primeiro à Lua.",
-            year: 2019
+    HStack(spacing: Theme.Metrics.cardSpacing) {
+        MediaCardView(
+            item: MediaItem(
+                title: "For All Mankind",
+                kind: .series,
+                genres: ["Drama", "Ficção Científica"],
+                posterURL: URL(string: "https://image.tmdb.org/t/p/w500/q6cYZjQAfvJqGGz0e0HQVwL2zFD.jpg"),
+                backdropURL: nil,
+                synopsis: "Uma releitura da corrida espacial em que a União Soviética chega primeiro à Lua.",
+                year: 2019
+            )
         )
-    )
+        Button(action: {}) {
+            PosterCard(
+                item: MediaItem(
+                    title: "Oppenheimer",
+                    kind: .movie,
+                    genres: ["Drama"],
+                    posterURL: URL(string: "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"),
+                    backdropURL: nil,
+                    synopsis: "",
+                    year: 2023
+                ),
+                rank: 1
+            )
+        }
+        .buttonStyle(.card)
+    }
     .padding(Theme.Metrics.focusHeadroom)
     .background(Theme.bg)
 }

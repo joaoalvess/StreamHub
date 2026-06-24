@@ -2,6 +2,8 @@ import SwiftUI
 
 struct HeroView: View {
     let items: [MediaItem]
+    var heroFocused: FocusState<Bool>.Binding? = nil
+    var heroTint: Binding<Color>? = nil
     @State private var index = 0
 
     @Namespace private var heroFocus
@@ -37,16 +39,29 @@ struct HeroView: View {
                 infoBlock(for: item)
             }
         }
-        .frame(maxWidth: .infinity)
-        .frame(height: heroHeight)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .overlay(alignment: .bottom) { pageDots }
+        .onAppear { syncTint() }
+        .onChange(of: index) { _, _ in syncTint() }
     }
 
-    private var heroHeight: CGFloat {
-        #if os(tvOS)
-        return 1080 * 0.58
-        #else
-        return 600
-        #endif
+    private func syncTint() {
+        heroTint?.wrappedValue = current?.tint ?? Theme.bg
+    }
+
+    @ViewBuilder
+    private var pageDots: some View {
+        if items.count > 1 {
+            HStack(spacing: 10) {
+                ForEach(items.indices, id: \.self) { i in
+                    Circle()
+                        .fill(Theme.textPrimary.opacity(i == index ? 1 : 0.35))
+                        .frame(width: 8, height: 8)
+                }
+            }
+            .padding(.bottom, 28)
+            .animation(.easeInOut(duration: 0.2), value: index)
+        }
     }
 
     @ViewBuilder
@@ -65,8 +80,7 @@ struct HeroView: View {
                 }
             }
         }
-        .frame(maxWidth: .infinity)
-        .frame(height: heroHeight)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .clipped()
     }
 
@@ -117,14 +131,10 @@ struct HeroView: View {
         HStack(spacing: 24) {
             Button(action: {}) {
                 Text("Reproduzir")
-                    .font(.system(size: 26, weight: .semibold))
-                    .foregroundStyle(.black)
-                    .padding(.horizontal, 40)
-                    .padding(.vertical, 18)
-                    .background(Theme.fill, in: Capsule())
             }
-            .buttonStyle(.card)
+            .buttonStyle(HeroButtonStyle(shape: .capsule))
             .prefersDefaultFocus(in: heroFocus)
+            .heroFocusTracked(heroFocused)
 
             circleButton(symbol: "plus", action: {})
             circleButton(symbol: "info.circle", action: {})
@@ -137,12 +147,55 @@ struct HeroView: View {
     private func circleButton(symbol: String, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             Image(systemName: symbol)
-                .font(.system(size: 28, weight: .semibold))
-                .foregroundStyle(Theme.textPrimary)
-                .frame(width: 64, height: 64)
-                .background(Theme.fillOnDark, in: Circle())
         }
-        .buttonStyle(.card)
+        .buttonStyle(HeroButtonStyle(shape: .circle))
+        .heroFocusTracked(heroFocused)
+    }
+}
+
+private struct HeroButtonStyle: ButtonStyle {
+    enum Shape { case capsule, circle }
+    var shape: Shape
+
+    @Environment(\.isFocused) private var isFocused
+
+    func makeBody(configuration: Configuration) -> some View {
+        let active = isFocused
+        return Group {
+            switch shape {
+            case .capsule:
+                configuration.label
+                    .font(.system(size: 26, weight: .semibold))
+                    .foregroundStyle(active ? Color.black : Theme.textPrimary)
+                    .padding(.horizontal, 40)
+                    .padding(.vertical, 18)
+                    .background(
+                        Capsule().fill(active ? AnyShapeStyle(Theme.fill) : AnyShapeStyle(Color.clear))
+                    )
+            case .circle:
+                configuration.label
+                    .font(.system(size: 28, weight: .semibold))
+                    .foregroundStyle(active ? Color.black : Theme.textPrimary)
+                    .frame(width: 64, height: 64)
+                    .background(
+                        Circle().fill(active ? AnyShapeStyle(Theme.fill) : AnyShapeStyle(Color.clear))
+                    )
+            }
+        }
+        .scaleEffect(configuration.isPressed ? 1.04 : (active ? 1.08 : 1.0))
+        .animation(.easeOut(duration: 0.18), value: active)
+        .animation(.easeOut(duration: 0.12), value: configuration.isPressed)
+    }
+}
+
+private extension View {
+    @ViewBuilder
+    func heroFocusTracked(_ binding: FocusState<Bool>.Binding?) -> some View {
+        if let binding {
+            focused(binding)
+        } else {
+            self
+        }
     }
 }
 
@@ -153,20 +206,10 @@ struct HeroView: View {
             kind: .series,
             genres: ["Suspense", "Drama"],
             posterURL: nil,
-            backdropURL: URL(string: "https://image.tmdb.org/t/p/original/8tCpUOJ4xCgC3wM6yGZ0H6S2Bbn.jpg"),
+            backdropURL: URL(string: "https://image.tmdb.org/t/p/w1280/7nsRpSCYcDGLcDmFAISHC8zMQ0D.jpg"),
             logoURL: nil,
             synopsis: "No meio de uma disputa conjugal, um casal enlutado encontra uma força sinistra dentro de sua própria casa.",
             year: 2019
-        ),
-        MediaItem(
-            title: "Foundation",
-            kind: .series,
-            genres: ["Ficção Científica", "Drama"],
-            posterURL: nil,
-            backdropURL: URL(string: "https://image.tmdb.org/t/p/original/2pFBQQjVACwQYa0puS9k7nOQ9LR.jpg"),
-            logoURL: nil,
-            synopsis: "Um bando de exilados embarca em uma jornada épica para salvar a humanidade e reconstruir a civilização em meio à queda do Império Galáctico.",
-            year: 2021
         )
     ])
     .frame(height: 700)

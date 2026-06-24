@@ -55,7 +55,8 @@ private struct CardLabel: View {
                         ServiceBadge(text: serviceBadge)
                     }
                 }
-                .padding(14)
+                .padding(.horizontal, 12)
+                .padding(.bottom, 18)
             }
 
             VStack {
@@ -65,11 +66,7 @@ private struct CardLabel: View {
         }
         .frame(width: Theme.Size.wideCardWidth, height: Theme.Size.wideCardHeight)
         .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.card, style: .continuous))
-        .overlay(
-            RoundedRectangle(cornerRadius: Theme.Radius.card, style: .continuous)
-                .strokeBorder(Theme.cardStroke, lineWidth: 1)
-        )
-        .animation(.easeInOut(duration: 0.2), value: isFocused)
+        .liquidGlassFocusBorder(isFocused)
     }
 }
 

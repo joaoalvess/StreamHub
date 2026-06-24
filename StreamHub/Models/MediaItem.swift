@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 struct MediaItem: Identifiable, Hashable {
     let id: UUID
@@ -13,6 +14,7 @@ struct MediaItem: Identifiable, Hashable {
     let serviceBadge: String?
     let progress: Double?
     let episodeLabel: String?
+    let tint: Color?
 
     enum Kind: String {
         case movie
@@ -31,7 +33,8 @@ struct MediaItem: Identifiable, Hashable {
         year: Int,
         serviceBadge: String? = nil,
         progress: Double? = nil,
-        episodeLabel: String? = nil
+        episodeLabel: String? = nil,
+        tint: Color? = nil
     ) {
         self.id = id
         self.title = title
@@ -45,5 +48,6 @@ struct MediaItem: Identifiable, Hashable {
         self.serviceBadge = serviceBadge
         self.progress = progress
         self.episodeLabel = episodeLabel
+        self.tint = tint
     }
 }

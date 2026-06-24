@@ -1,4 +1,5 @@
 import Foundation
+import SwiftUI
 
 enum MockData {
     static let heroItems: [MediaItem] = [
@@ -10,7 +11,8 @@ enum MockData {
             backdropURL: URL(string: "https://image.tmdb.org/t/p/w1280/7nsRpSCYcDGLcDmFAISHC8zMQ0D.jpg"),
             synopsis: "Um casal da Filadélfia em luto contrata uma jovem babá para cuidar de um boneco terapêutico que substitui o filho que perderam. A chegada da misteriosa Leanne traz forças inexplicáveis para dentro de casa. Criada por M. Night Shyamalan, a série mistura horror psicologico e tensão domestica.",
             year: 2019,
-            serviceBadge: "tv"
+            serviceBadge: "tv",
+            tint: Color(hex: 0x4A2E22)
         ),
         MediaItem(
             title: "The Boys",
@@ -20,7 +22,8 @@ enum MockData {
             backdropURL: URL(string: "https://image.tmdb.org/t/p/w1280/n6vVs6z8obNbExdD3QHTr4Utu1Z.jpg"),
             synopsis: "Em um mundo onde super-heróis abusam de seus poderes em vez de usá-los para o bem, um grupo de vigilantes decide enfrentá-los. Liderados por Billy Butcher, Os Rapazes expõem a corrupção por trás da poderosa corporação Vought. Sátira violenta e ácida sobre fama, poder e politica.",
             year: 2019,
-            serviceBadge: "Prime"
+            serviceBadge: "Prime",
+            tint: Color(hex: 0x5A1A1A)
         ),
         MediaItem(
             title: "For All Mankind",
@@ -30,7 +33,8 @@ enum MockData {
             backdropURL: URL(string: "https://image.tmdb.org/t/p/w1280/9OQ5BIITkJwRJo9JA6AlCfJIGBQ.jpg"),
             synopsis: "E se a corrida espacial nunca tivesse terminado? Nesta história alternativa, os soviéticos chegam primeiro à Lua e a NASA é forçada a inovar sem parar. A serie acompanha astronautas e suas familias enquanto a exploração espacial redefine o mundo.",
             year: 2019,
-            serviceBadge: "tv"
+            serviceBadge: "tv",
+            tint: Color(hex: 0x1B2A44)
         ),
         MediaItem(
             title: "Monarch: Legado de Monstros",
@@ -40,7 +44,8 @@ enum MockData {
             backdropURL: URL(string: "https://image.tmdb.org/t/p/w1280/7IY4wELVMvtUc78vPiuL8kQV2iA.jpg"),
             synopsis: "Após o ataque de Godzilla em São Francisco, dois irmãos seguem os passos do pai para descobrir os segredos da organização Monarch. A jornada revela uma rede global de monstros colossais e uma história familiar enterrada. Ambientada no universo MonsterVerse.",
             year: 2023,
-            serviceBadge: "tv"
+            serviceBadge: "tv",
+            tint: Color(hex: 0x1E3530)
         )
     ]
 
