@@ -1,0 +1,151 @@
+{
+  "id": "aio-metadata",
+  "name": "AIOMetadata  | ElfHosted",
+  "version": "2.7.1",
+  "configVersion": 1782289932288,
+  "language": "pt-BR",
+  "description": "A metadata addon for power users. AIOMetadata uses TMDB, TVDB, TVMaze, MyAnimeList, IMDB and Fanart.tv to provide accurate data for movies, series, and anime. You choose the source.",
+  "resources": [
+    "catalog",
+    "meta",
+    "subtitles"
+  ],
+  "types": [
+    "movie",
+    "series",
+    "anime.movie",
+    "anime.series",
+    "anime",
+    "Trakt",
+    "collection"
+  ],
+  "idPrefixes": [
+    "tmdb:",
+    "tt",
+    "tvdb:",
+    "mal:",
+    "tvmaze:",
+    "kitsu:",
+    "anidb:",
+    "anilist:",
+    "tvdbc:",
+    "upnext_",
+    "unwatched_",
+    "mdblist_upnext_",
+    "pmdb_resume_"
+  ],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false,
+    "newEpisodeNotifications": true
+  },
+  "stremioAddonsConfig": {
+    "issuer": "https://stremio-addons.net",
+    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..3_iKJ-pKhR-LclfTPxvyag.uY747PgjymdL0OMdZrE7HTOVG-8nNWC-LrlJ5tCXm2i2FioXv_ismzWV0_XsLl0Me9cW9D3xog6d4tSHDY8Pe27mbIylUb61MS4VVqg_sFZXUVon2le-fRFrtmMnIqCF.oyYRDftPN2sohMpDMbMbYg"
+  },
+  "catalogs": [
+    {
+      "id": "trakt.trending.movies",
+      "type": "movie",
+      "name": "Trakt Trending Movies",
+      "pageSize": 50,
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Anime",
+            "Comedy",
+            "Crime",
+            "…(truncado)"
+          ],
+          "isRequired": false
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "showInHome": true
+    },
+    {
+      "id": "tmdb.top",
+      "type": "movie",
+      "name": "TMDB Popular",
+      "pageSize": 50,
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Animação",
+            "Aventura",
+            "Ação",
+            "Cinema TV",
+            "Comédia",
+            "Crime",
+            "…(truncado)"
+          ],
+          "isRequired": false,
+          "default": "Animação"
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "showInHome": true
+    },
+    {
+      "id": "mal.studios",
+      "type": "anime",
+      "name": "MAL Por Estúdio",
+      "pageSize": 25,
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Madhouse",
+            "Kyoto Animation",
+            "MAPPA",
+            "ufotable",
+            "Wit Studio",
+            "Studio Ghibli",
+            "…(truncado)"
+          ],
+          "isRequired": false,
+          "default": "Madhouse"
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "showInHome": true
+    },
+    {
+      "id": "streaming.nfx",
+      "type": "series",
+      "name": "Netflix (Series)",
+      "pageSize": 50,
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "Action & Adventure",
+            "Animação",
+            "Comédia",
+            "Crime",
+            "Documentário",
+            "Drama",
+            "…(truncado)"
+          ],
+          "isRequired": false,
+          "default": "Action & Adventure"
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "showInHome": true
+    }
+  ]
+}

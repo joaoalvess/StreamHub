@@ -1,0 +1,537 @@
+{
+  "metas": [
+    {
+      "id": "tt33296751",
+      "type": "movie",
+      "description": "Niki é um afinador de pianos talentoso treinado por Harry. Sua audição excepcional chama a atenção de criminosos. Essa habilidade rara não só o ajuda a trabalhar com instrumentos de alto padrão, como pianos Steinway, mas também a abrir cofres com precisão. Ao longo do caminho, Niki conhece Ruthie, uma estudante de composição, e os dois criam uma conexão inesperada. Porém, sua vida dupla como arrombador começa a ameaçar o relacionamento, enquanto ele se envolve em situações cada vez mais perigosas.",
+      "name": "O Afinador",
+      "imdb_id": "tt33296751",
+      "slug": "movie/o-afinador-tmdb:1340206",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Drama"
+      ],
+      "director": "Daniel Roher",
+      "writer": "Robert Ramsey, Daniel Roher",
+      "year": "2026",
+      "released": "2026-05-22T00:00:00.000Z",
+      "releaseInfo": "2026",
+      "runtime": "1h48min",
+      "country": "Canada, United States of America",
+      "imdbRating": "7.4",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bq21NGxKqV6DgHfm5j48mscM7Ai.jpg",
+      "_rawPosterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/bq21NGxKqV6DgHfm5j48mscM7Ai.jpg",
+      "background": "https://image.tmdb.org/t/p/original/dpHoPHMSMkFZWt44FGkpEZ61Ptd.jpg",
+      "landscapePoster": "https://image.tmdb.org/t/p/original/H3Rjme4A31GZ9IKj7hrUKI611t.jpg",
+      "logo": "https://image.tmdb.org/t/p/original/sJYSSVapxPiMTSvDmxHWXLt3C89.png",
+      "trailers": [
+        {
+          "source": "HYxzyLVJORA",
+          "type": "Trailer",
+          "name": "Tuner - OFFICIAL TRAILER",
+          "ytId": "HYxzyLVJORA",
+          "lang": "en"
+        },
+        {
+          "source": "XiehvETTjTQ",
+          "type": "Trailer",
+          "name": "TUNER Trailer 4K (2026) | Leo Woodall, Havana Rose Liu, Dustin Hoffman, Jean Reno | Crime, Thriller",
+          "ytId": "XiehvETTjTQ",
+          "lang": "en"
+        },
+        {
+          "source": "zW1cRf5X8Hk",
+          "type": "Trailer",
+          "name": "TUNER | Official Trailer HD",
+          "ytId": "zW1cRf5X8Hk",
+          "lang": "en"
+        },
+        {
+          "source": "rdlOZhl-nSA",
+          "type": "Trailer",
+          "name": "Official Trailer",
+          "ytId": "rdlOZhl-nSA",
+          "lang": "en"
+        }
+      ],
+      "links": [
+        {
+          "name": "7.4",
+          "category": "imdb",
+          "url": "https://imdb.com/title/tt33296751"
+        },
+        {
+          "name": "O Afinador",
+          "category": "share",
+          "url": "https://www.strem.io/s/movie/o-afinador-33296751"
+        },
+        {
+          "name": "Thriller",
+          "category": "Genres",
+          "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb7f90b53-eec4-4158-a8b8-aa0ae2d531b2%2Fmanifest.json/movie/tmdb.top?genre=Thriller"
+        },
+        {
+          "name": "Crime",
+          "category": "Genres",
+          "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb7f90b53-eec4-4158-a8b8-aa0ae2d531b2%2Fmanifest.json/movie/tmdb.top?genre=Crime"
+        },
+        {
+          "name": "Drama",
+          "category": "Genres",
+          "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb7f90b53-eec4-4158-a8b8-aa0ae2d531b2%2Fmanifest.json/movie/tmdb.top?genre=Drama"
+        },
+        {
+          "name": "Leo Woodall",
+          "category": "Cast",
+          "url": "stremio:///search?search=Leo%20Woodall"
+        },
+        {
+          "name": "Havana Rose Liu",
+          "category": "Cast",
+          "url": "stremio:///search?search=Havana%20Rose%20Liu"
+        },
+        {
+          "name": "Dustin Hoffman",
+          "category": "Cast",
+          "url": "stremio:///search?search=Dustin%20Hoffman"
+        },
+        {
+          "name": "ליאור רז",
+          "category": "Cast",
+          "url": "stremio:///search?search=%D7%9C%D7%99%D7%90%D7%95%D7%A8%20%D7%A8%D7%96"
+        },
+        {
+          "name": "Tovah Feldshuh",
+          "category": "Cast",
+          "url": "stremio:///search?search=Tovah%20Feldshuh"
+        },
+        {
+          "name": "Jean Reno",
+          "category": "Cast",
+          "url": "stremio:///search?search=Jean%20Reno"
+        },
+        {
+          "name": "Jonnie Park",
+          "category": "Cast",
+          "url": "stremio:///search?search=Jonnie%20Park"
+        },
+        {
+          "name": "Rek Lee",
+          "category": "Cast",
+          "url": "stremio:///search?search=Rek%20Lee"
+        },
+        {
+          "name": "Jean Yoon",
+          "category": "Cast",
+          "url": "stremio:///search?search=Jean%20Yoon"
+        },
+        {
+          "name": "C. S. Lee",
+          "category": "Cast",
+          "url": "stremio:///search?search=C.%20S.%20Lee"
+        },
+        {
+          "name": "Gil Cohen",
+          "category": "Cast",
+          "url": "stremio:///search?search=Gil%20Cohen"
+        },
+        {
+          "name": "Nissan Sakira",
+          "category": "Cast",
+          "url": "stremio:///search?search=Nissan%20Sakira"
+        },
+        {
+          "name": "Herbie Hancock",
+          "category": "Cast",
+          "url": "stremio:///search?search=Herbie%20Hancock"
+        },
+        {
+          "name": "Ellyn Jameson",
+          "category": "Cast",
+          "url": "stremio:///search?search=Ellyn%20Jameson"
+        },
+        {
+          "name": "David Reale",
+          "category": "Cast",
+          "url": "stremio:///search?search=David%20Reale"
+        },
+        {
+          "name": "Daniel Roher",
+          "category": "Directors",
+          "url": "stremio:///search?search=Daniel%20Roher"
+        },
+        {
+          "name": "Robert Ramsey",
+          "category": "Writers",
+          "url": "stremio:///search?search=Robert%20Ramsey"
+        },
+        {
+          "name": "Daniel Roher",
+          "category": "Writers",
+          "url": "stremio:///search?search=Daniel%20Roher"
+        }
+      ],
+      "behaviorHints": {
+        "defaultVideoId": "tt33296751",
+        "hasScheduledVideos": false
+      },
+      "app_extras": {
+        "cast": [
+          {
+            "name": "Leo Woodall",
+            "character": "Niki White",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/aurLg09FobKlhY3fNLg2xyiNBaZ.jpg"
+          },
+          {
+            "name": "Havana Rose Liu",
+            "character": "Ruthie",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lqdialbfdj5l4KYMSlL4aausMaV.jpg"
+          },
+          {
+            "name": "Dustin Hoffman",
+            "character": "Harry Horowitz",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/yxNGnTiou25c3zjppT5dW2eWAve.jpg"
+          },
+          {
+            "name": "ליאור רז",
+            "character": "Uri",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/bl3KLFUQ4Q0zC9lCU4qP1Jf4qHS.jpg"
+          },
+          {
+            "name": "Tovah Feldshuh",
+            "character": "Marla",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/c0VOkTP88UneW37YOBebtBhMHYF.jpg"
+          },
+          {
+            "name": "Jean Reno",
+            "character": "Marius Maissner",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mw0EZJYz3kiFq9fNxsML773gotF.jpg"
+          },
+          {
+            "name": "Jonnie Park",
+            "character": "Sung",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lcIPg223TayLkrDvaizIOwSADQY.jpg"
+          },
+          {
+            "name": "Rek Lee",
+            "character": "Jinwoo",
+            "photo": null
+          },
+          {
+            "name": "Jean Yoon",
+            "character": "Dr. Madeline Richard",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ce8sXtsy7HNGWG0xqSo4QTaghjM.jpg"
+          },
+          {
+            "name": "C. S. Lee",
+            "character": "Yong",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cjqzZKv7iCDk2o5Wp2TlhxuQi52.jpg"
+          },
+          {
+            "name": "Gil Cohen",
+            "character": "Yoni",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/lHZi4fChatE5ul54xaAAWppQ8sR.jpg"
+          },
+          {
+            "name": "Nissan Sakira",
+            "character": "Benny",
+            "photo": null
+          },
+          {
+            "name": "Herbie Hancock",
+            "character": "Herbie Hancock",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/xjXWB5vdaiU9wUiOAkQeRY0cwob.jpg"
+          },
+          {
+            "name": "Ellyn Jameson",
+            "character": "Ellyn",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/vQgw1yscHN1TaEOCyVXQDqyXuzR.jpg"
+          },
+          {
+            "name": "David Reale",
+            "character": "Travis Conway",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6Mo33Tpd9Ou7nRjKjZ1iMBc2jq0.jpg"
+          }
+        ],
+        "directors": [
+          {
+            "name": "Daniel Roher",
+            "character": "Daniel Roher",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/A8A1kXh8X2yPDJcgBZpE1tV7zu3.jpg"
+          }
+        ],
+        "writers": [],
+        "certification": "R",
+        "certificationLocal": "16"
+      },
+      "_tmdbId": "1340206",
+      "_tvdbId": "359822",
+      "_imdbId": "tt33296751"
+    },
+    {
+      "id": "tt29355505",
+      "type": "movie",
+      "description": "O trabalho de Buzz, Woody, Jessie e do resto da gangue fica exponencialmente mais difícil quando eles enfrentam uma nova ameaça à diversão: a tecnologia.",
+      "name": "Toy Story 5",
+      "imdb_id": "tt29355505",
+      "slug": "movie/toy-story-5-tmdb:1084244",
+      "genres": [
+        "Animação",
+        "Família",
+        "Comédia",
+        "Aventura"
+      ],
+      "director": "Andrew Stanton",
+      "writer": "Andrew Stanton, Jason Katz, Kenna Harris, Logan Hester",
+      "year": "2026",
+      "released": "2026-06-18T00:00:00.000Z",
+      "releaseInfo": "2026",
+      "runtime": "1h40min",
+      "country": "United States of America",
+      "imdbRating": "7.6",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iwEuq51BV59mm2LgZ42bWgPgagW.jpg",
+      "_rawPosterUrl": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iwEuq51BV59mm2LgZ42bWgPgagW.jpg",
+      "background": "https://image.tmdb.org/t/p/original/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+      "landscapePoster": "https://image.tmdb.org/t/p/original/gnAwcLTZ0ooeIc6DdIrwOZ383OR.jpg",
+      "logo": "https://image.tmdb.org/t/p/original/aI3zj2mXnusvdbG5AYwWXCbEVk3.png",
+      "trailers": [
+        {
+          "source": "QYlk6H36smk",
+          "type": "Trailer",
+          "name": "Toy Story 5 | Trailer Oficial (V.P.)",
+          "ytId": "QYlk6H36smk",
+          "lang": "pt"
+        }
+      ],
+      "links": [
+        {
+          "name": "7.6",
+          "category": "imdb",
+          "url": "https://imdb.com/title/tt29355505"
+        },
+        {
+          "name": "Toy Story 5",
+          "category": "share",
+          "url": "https://www.strem.io/s/movie/toy-story-5-29355505"
+        },
+        {
+          "name": "Animação",
+          "category": "Genres",
+          "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb7f90b53-eec4-4158-a8b8-aa0ae2d531b2%2Fmanifest.json/movie/tmdb.top?genre=Anima%C3%A7%C3%A3o"
+        },
+        {
+          "name": "Família",
+          "category": "Genres",
+          "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb7f90b53-eec4-4158-a8b8-aa0ae2d531b2%2Fmanifest.json/movie/tmdb.top?genre=Fam%C3%ADlia"
+        },
+        {
+          "name": "Comédia",
+          "category": "Genres",
+          "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb7f90b53-eec4-4158-a8b8-aa0ae2d531b2%2Fmanifest.json/movie/tmdb.top?genre=Com%C3%A9dia"
+        },
+        {
+          "name": "Aventura",
+          "category": "Genres",
+          "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb7f90b53-eec4-4158-a8b8-aa0ae2d531b2%2Fmanifest.json/movie/tmdb.top?genre=Aventura"
+        },
+        {
+          "name": "Tom Hanks",
+          "category": "Cast",
+          "url": "stremio:///search?search=Tom%20Hanks"
+        },
+        {
+          "name": "Tim Allen",
+          "category": "Cast",
+          "url": "stremio:///search?search=Tim%20Allen"
+        },
+        {
+          "name": "Joan Cusack",
+          "category": "Cast",
+          "url": "stremio:///search?search=Joan%20Cusack"
+        },
+        {
+          "name": "Greta Lee",
+          "category": "Cast",
+          "url": "stremio:///search?search=Greta%20Lee"
+        },
+        {
+          "name": "Conan O'Brien",
+          "category": "Cast",
+          "url": "stremio:///search?search=Conan%20O'Brien"
+        },
+        {
+          "name": "Craig Robinson",
+          "category": "Cast",
+          "url": "stremio:///search?search=Craig%20Robinson"
+        },
+        {
+          "name": "Shelby Rabara",
+          "category": "Cast",
+          "url": "stremio:///search?search=Shelby%20Rabara"
+        },
+        {
+          "name": "Tony Hale",
+          "category": "Cast",
+          "url": "stremio:///search?search=Tony%20Hale"
+        },
+        {
+          "name": "Scarlett Spears",
+          "category": "Cast",
+          "url": "stremio:///search?search=Scarlett%20Spears"
+        },
+        {
+          "name": "Jay Hernandez",
+          "category": "Cast",
+          "url": "stremio:///search?search=Jay%20Hernandez"
+        },
+        {
+          "name": "Lori Alan",
+          "category": "Cast",
+          "url": "stremio:///search?search=Lori%20Alan"
+        },
+        {
+          "name": "Bonnie Hunt",
+          "category": "Cast",
+          "url": "stremio:///search?search=Bonnie%20Hunt"
+        },
+        {
+          "name": "Kristen Schaal",
+          "category": "Cast",
+          "url": "stremio:///search?search=Kristen%20Schaal"
+        },
+        {
+          "name": "Wallace Shawn",
+          "category": "Cast",
+          "url": "stremio:///search?search=Wallace%20Shawn"
+        },
+        {
+          "name": "John Ratzenberger",
+          "category": "Cast",
+          "url": "stremio:///search?search=John%20Ratzenberger"
+        },
+        {
+          "name": "Andrew Stanton",
+          "category": "Directors",
+          "url": "stremio:///search?search=Andrew%20Stanton"
+        },
+        {
+          "name": "Andrew Stanton",
+          "category": "Writers",
+          "url": "stremio:///search?search=Andrew%20Stanton"
+        },
+        {
+          "name": "Jason Katz",
+          "category": "Writers",
+          "url": "stremio:///search?search=Jason%20Katz"
+        },
+        {
+          "name": "Kenna Harris",
+          "category": "Writers",
+          "url": "stremio:///search?search=Kenna%20Harris"
+        },
+        {
+          "name": "Logan Hester",
+          "category": "Writers",
+          "url": "stremio:///search?search=Logan%20Hester"
+        }
+      ],
+      "behaviorHints": {
+        "defaultVideoId": "tt29355505",
+        "hasScheduledVideos": false
+      },
+      "app_extras": {
+        "cast": [
+          {
+            "name": "Tom Hanks",
+            "character": "Woody (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+          },
+          {
+            "name": "Tim Allen",
+            "character": "Buzz Lightyear (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/woWhZzFILVhYMAvsPL171HjMY0y.jpg"
+          },
+          {
+            "name": "Joan Cusack",
+            "character": "Jessie (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/59UIeHZFYrKyP20lXqijtfTXglO.jpg"
+          },
+          {
+            "name": "Greta Lee",
+            "character": "Lilypad (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/6SydTis4XUcovlwIGskT59JowLX.jpg"
+          },
+          {
+            "name": "Conan O'Brien",
+            "character": "Smarty Pants (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/deRbViPut0t80miscBpP2DhBJU5.jpg"
+          },
+          {
+            "name": "Craig Robinson",
+            "character": "Atlas (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/mTyTrOWUSOBJMOlDpnd4OYx7FlJ.jpg"
+          },
+          {
+            "name": "Shelby Rabara",
+            "character": "Snappy (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ouMiEKlhCj2LFKEQtI6fGRMDemF.jpg"
+          },
+          {
+            "name": "Tony Hale",
+            "character": "Forky (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/ar4uapp4w5wMkThZcqWUNMSTO8z.jpg"
+          },
+          {
+            "name": "Scarlett Spears",
+            "character": "Bonnie (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/h0loJ4v3wbUfUA6dxUYv7B6fET1.jpg"
+          },
+          {
+            "name": "Jay Hernandez",
+            "character": "Bonnie’s Dad (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/rh4pzTAJvy0i84HYV4xZxCXuXgV.jpg"
+          },
+          {
+            "name": "Lori Alan",
+            "character": "Bonnie's Mom (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/cavATg4fX0zAl2MHwlt1IZei7EI.jpg"
+          },
+          {
+            "name": "Bonnie Hunt",
+            "character": "Dolly (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/tT9C6uLztgN8OxJULq6F9iEzqlA.jpg"
+          },
+          {
+            "name": "Kristen Schaal",
+            "character": "Trixie (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/s3LSHVTx8gxHP2twYsXEGa8JbLl.jpg"
+          },
+          {
+            "name": "Wallace Shawn",
+            "character": "Rex (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/wVaM1WlFKDce4esThwL4XtNLhOe.jpg"
+          },
+          {
+            "name": "John Ratzenberger",
+            "character": "Hamm (voice)",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/oRtDEOuIO1yDhTz5dORBdxXuLMO.jpg"
+          }
+        ],
+        "directors": [
+          {
+            "name": "Andrew Stanton",
+            "character": "Andrew Stanton",
+            "photo": "https://image.tmdb.org/t/p/w276_and_h350_face/fo6ePCWEVB0L1sccrvB99Iaoqcg.jpg"
+          }
+        ],
+        "writers": [],
+        "certification": "PG",
+        "certificationLocal": "10"
+      },
+      "_tmdbId": "1084244",
+      "_tvdbId": "344106",
+      "_imdbId": "tt29355505"
+    }
+  ]
+}

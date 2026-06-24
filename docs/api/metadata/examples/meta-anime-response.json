@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "id": "mal:52991",
+    "type": "series",
+    "name": "Frieren e a Jornada para o Além",
+    "imdb_id": "tt22248376",
+    "director": "",
+    "writer": "",
+    "slug": "series/frieren-e-a-jornada-para-o-além-22248376",
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Animation",
+      "Adventure",
+      "Anime"
+    ],
+    "description": "Após uma missão de 10 anos ao lado do herói Himmel e seu grupo, a poderosa maga Frieren derrotou o Rei Demônio e trouxe paz ao reino. Como uma elfa, Frieren tem uma vida de mais de mil anos pela frente. Ela promete retornar para seus amigos e, assim, parte em uma jornada solitária. 50 anos se passam quando Frieren finalmente volta para visitar Himmel e os outros. Embora ela não tenha envelhecido nada, seus amigos têm pouco tempo de vida restante. É então que Frieren testemunha a morte de Himmel, o que a leva a lamentar não ter passado mais tempo junto dele. Com esse arrependimento em seu coração, ela embarca em uma nova jornada com o objetivo de se conectar e conhecer melhor as pessoas. Ao longo dessa viagem, a elfa Frieren encontrará diversas pessoas e viverá incontáveis aventuras emocionantes!",
+    "year": "2023",
+    "releaseInfo": "2023-",
+    "released": "2023-09-29T14:00:00.000Z",
+    "runtime": "25min",
+    "status": "Continuing",
+    "country": "jpn",
+    "imdbRating": "8.9",
+    "poster": "https://artworks.thetvdb.com/banners/v4/series/424536/posters/654653ccdba57.jpg",
+    "_rawPosterUrl": "https://artworks.thetvdb.com/banners/v4/series/424536/posters/654653ccdba57.jpg",
+    "background": "https://images.metahub.space/background/medium/tt22248376/img",
+    "landscapePoster": "https://images.metahub.space/background/medium/tt22248376/img",
+    "logo": "https://images.metahub.space/logo/medium/tt22248376/img",
+    "videos": [
+      {
+        "id": "tt22248376:0:1",
+        "title": "Episode 1",
+        "season": 0,
+        "episode": 1,
+        "thumbnail": "https://artworks.thetvdb.com/banners/v4/episode/10117637/screencap/6555d83a87b95.jpg",
+        "overview": null,
+        "released": "2023-10-11T14:00:00.000Z",
+        "available": true,
+        "runtime": "1min"
+      },
+      {
+        "id": "tt22248376:0:2",
+        "title": "Episode 2",
+        "season": 0,
+        "episode": 2,
+        "thumbnail": "https://artworks.thetvdb.com/banners/v4/episode/10117638/screencap/6555d85c161b7.jpg",
+        "overview": null,
+        "released": "2023-10-25T14:00:00.000Z",
+        "available": true,
+        "runtime": "1min"
+      },
+      {
+        "_comment": "... (truncado) ..."
+      }
+    ],
+    "trailers": [
+      {
+        "source": "f5ZEiJyqDKU",
+        "type": "Trailer",
+        "name": "Frieren e a Jornada para o Além"
+      },
+      {
+        "source": "itKPyGXrCVA",
+        "type": "Trailer",
+        "name": "Frieren e a Jornada para o Além"
+      },
+      {
+        "source": "Iwr1aLEDpe4",
+        "type": "Trailer",
+        "name": "Frieren e a Jornada para o Além"
+      },
+      {
+        "source": "tR8YH0G67Rk",
+        "type": "Trailer",
+        "name": "Frieren e a Jornada para o Além"
+      },
+      {
+        "source": "eXjbk-4ljgc",
+        "type": "Trailer",
+        "name": "Frieren e a Jornada para o Além"
+      },
+      {
+        "source": "vEF077uVx8M",
+        "type": "Trailer",
+        "name": "Frieren e a Jornada para o Além"
+      },
+      {
+        "source": "aVZJ-tHtCg4",
+        "type": "Trailer",
+        "name": "Frieren e a Jornada para o Além"
+      },
+      {
+        "source": "MwP4gqRys4c",
+        "type": "Trailer",
+        "name": "Frieren e a Jornada para o Além"
+      }
+    ],
+    "links": [
+      {
+        "name": "8.9",
+        "category": "imdb",
+        "url": "https://imdb.com/title/tt22248376"
+      },
+      {
+        "name": "Frieren e a Jornada para o Além",
+        "category": "share",
+        "url": "https://www.strem.io/s/series/frieren-e-a-jornada-para-o-além-22248376"
+      },
+      {
+        "name": "Fantasy",
+        "category": "Genres",
+        "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb11959c7-94fd-4fd2-aa24-6655c4fd7164%2Fmanifest.json/series/tvdb.genres?genre=Fantasy"
+      },
+      {
+        "name": "Drama",
+        "category": "Genres",
+        "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb11959c7-94fd-4fd2-aa24-6655c4fd7164%2Fmanifest.json/series/tvdb.genres?genre=Drama"
+      },
+      {
+        "name": "Animation",
+        "category": "Genres",
+        "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb11959c7-94fd-4fd2-aa24-6655c4fd7164%2Fmanifest.json/series/tvdb.genres?genre=Animation"
+      },
+      {
+        "name": "Adventure",
+        "category": "Genres",
+        "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb11959c7-94fd-4fd2-aa24-6655c4fd7164%2Fmanifest.json/series/tvdb.genres?genre=Adventure"
+      },
+      {
+        "name": "Anime",
+        "category": "Genres",
+        "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb11959c7-94fd-4fd2-aa24-6655c4fd7164%2Fmanifest.json/series/tvdb.genres?genre=Anime"
+      },
+      {
+        "name": "Atsumi Tanezaki",
+        "category": "Cast",
+        "url": "stremio:///search?search=Atsumi%20Tanezaki"
+      },
+      {
+        "name": "Nobuhiko Okamoto",
+        "category": "Cast",
+        "url": "stremio:///search?search=Nobuhiko%20Okamoto"
+      },
+      {
+        "name": "Yoji Ueda",
+        "category": "Cast",
+        "url": "stremio:///search?search=Yoji%20Ueda"
+      },
+      {
+        "name": "Hiroki Touchi",
+        "category": "Cast",
+        "url": "stremio:///search?search=Hiroki%20Touchi"
+      },
+      {
+        "name": "Chiaki Kobayashi",
+        "category": "Cast",
+        "url": "stremio:///search?search=Chiaki%20Kobayashi"
+      },
+      {
+        "name": "Kana Ichinose",
+        "category": "Cast",
+        "url": "stremio:///search?search=Kana%20Ichinose"
+      },
+      {
+        "name": "Atsuko Tanaka",
+        "category": "Cast",
+        "url": "stremio:///search?search=Atsuko%20Tanaka"
+      },
+      {
+        "name": "Hiroki Yasumoto",
+        "category": "Cast",
+        "url": "stremio:///search?search=Hiroki%20Yasumoto"
+      },
+      {
+        "name": "Junichi Suwabe",
+        "category": "Cast",
+        "url": "stremio:///search?search=Junichi%20Suwabe"
+      },
+      {
+        "name": "Takehito Koyasu",
+        "category": "Cast",
+        "url": "stremio:///search?search=Takehito%20Koyasu"
+      }
+    ],
+    "behaviorHints": {
+      "defaultVideoId": null,
+      "hasScheduledVideos": true
+    },
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Atsumi Tanezaki",
+          "character": "Frieren",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/7866747/photo/64f68ca76bb63.jpg"
+        },
+        {
+          "name": "Nobuhiko Okamoto",
+          "character": "Himmel",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/303207/photo/64f67dbfb4995.jpg"
+        },
+        {
+          "name": "Yoji Ueda",
+          "character": "Eisen",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/8085473/photo/64f6874676c45.jpg"
+        },
+        {
+          "name": "Hiroki Touchi",
+          "character": "Heiter",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/463716/photo/64f6884f4c7a3.jpg"
+        },
+        {
+          "name": "Chiaki Kobayashi",
+          "character": "Stark",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/7891643/photo/64f689a404e13.jpg"
+        },
+        {
+          "name": "Kana Ichinose",
+          "character": "Fern",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/7868437/photo/64f68a7b26d66.jpg"
+        },
+        {
+          "name": "Atsuko Tanaka",
+          "character": " Flamme",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/314895/photo/65140edc56017.jpg"
+        },
+        {
+          "name": "Hiroki Yasumoto",
+          "character": "Qual",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/301118/photo/6514108f65973.jpg"
+        },
+        {
+          "name": "Junichi Suwabe",
+          "character": "Lugner",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/309354/photo/65b7c2b0d9020.jpg"
+        },
+        {
+          "name": "Takehito Koyasu",
+          "character": "Kraft",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/277098/photo/6599906249154.jpg"
+        }
+      ],
+      "directors": [],
+      "writers": [],
+      "seasonPosters": [
+        "https://artworks.thetvdb.com/banners/v4/season/2018811/posters/66d606c50d07c.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/2018812/posters/66d606e1dd83b.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/2148708/posters/699dd12415f41.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/2241887/posters/69c6951801eec.jpg"
+      ],
+      "certification": "TV-14",
+      "certificationLocal": "14"
+    },
+    "_tmdbId": "209867",
+    "_tvdbId": "424536",
+    "_imdbId": "tt22248376",
+    "_malId": "52991",
+    "_kitsuId": "46474",
+    "_anilistId": "154587",
+    "_anidbId": "17617"
+  }
+}

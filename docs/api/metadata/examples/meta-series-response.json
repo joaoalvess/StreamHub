@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "id": "tt0203259",
+    "type": "series",
+    "name": "Lei & Ordem: Unidade de Vítimas Especiais",
+    "imdb_id": "tt0203259",
+    "director": "",
+    "writer": "",
+    "slug": "series/lei-&-ordem:-unidade-de-vítimas-especiais-0203259",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller",
+      "Mystery"
+    ],
+    "description": "Olivia Benson e sua equipe de elite, do Departamento de Polícia de Nova York, investigam crimes de abuso sexual e violência doméstica.﻿",
+    "year": "1999",
+    "releaseInfo": "1999-",
+    "released": "1999-09-21T01:00:00.000Z",
+    "runtime": "44min",
+    "status": "Continuing",
+    "country": "usa",
+    "imdbRating": "8.1",
+    "poster": "https://artworks.thetvdb.com/banners/posters/75692-10.jpg",
+    "_rawPosterUrl": "https://artworks.thetvdb.com/banners/posters/75692-10.jpg",
+    "background": "https://artworks.thetvdb.com/banners/fanart/original/75692-2.jpg",
+    "landscapePoster": "https://artworks.thetvdb.com/banners/fanart/original/75692-15.jpg",
+    "logo": "https://artworks.thetvdb.com/banners/v4/series/75692/clearlogo/611b653bcac76.png",
+    "videos": [
+      {
+        "id": "tt0203259:0:1",
+        "title": "Episode 1",
+        "season": 0,
+        "episode": 1,
+        "thumbnail": "https://artworks.thetvdb.com/banners/episodes/75692/543161.jpg",
+        "overview": null,
+        "released": null,
+        "available": false,
+        "runtime": "45min"
+      },
+      {
+        "id": "tt0203259:0:2",
+        "title": "Episode 2",
+        "season": 0,
+        "episode": 2,
+        "thumbnail": "https://artworks.thetvdb.com/banners/episodes/75692/543171.jpg",
+        "overview": null,
+        "released": null,
+        "available": false,
+        "runtime": "45min"
+      },
+      {
+        "id": "tt0203259:0:3",
+        "title": "Episode 3",
+        "season": 0,
+        "episode": 3,
+        "thumbnail": "https://artworks.thetvdb.com/banners/episodes/75692/543181.jpg",
+        "overview": null,
+        "released": null,
+        "available": false,
+        "runtime": "45min"
+      },
+      {
+        "_comment": "... (truncado nesta amostra) ..."
+      },
+      {
+        "id": "tt0203259:27:21",
+        "title": "Monstro",
+        "season": 27,
+        "episode": 21,
+        "thumbnail": "https://artworks.thetvdb.com/banners/v4/episode/11701869/screencap/6a04f325df21f.jpg",
+        "overview": "Um erro processual cometido durante o resgate de um menino sequestrado leva ao colapso do caso no tribunal. À medida que Griffin se aproxima da verdade sobre Tynan, ele se vê em grave perigo.",
+        "released": "2026-05-15T01:00:00.000Z",
+        "available": true,
+        "runtime": "43min"
+      }
+    ],
+    "trailers": [
+      {
+        "source": "o0C_1O34TCs",
+        "type": "Trailer",
+        "name": "Lei & Ordem: Unidade de Vítimas Especiais"
+      }
+    ],
+    "links": [
+      {
+        "name": "8.1",
+        "category": "imdb",
+        "url": "https://imdb.com/title/tt0203259"
+      },
+      {
+        "name": "Lei & Ordem: Unidade de Vítimas Especiais",
+        "category": "share",
+        "url": "https://www.strem.io/s/series/lei-&-ordem:-unidade-de-vítimas-especiais-0203259"
+      },
+      {
+        "name": "Drama",
+        "category": "Genres",
+        "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb11959c7-94fd-4fd2-aa24-6655c4fd7164%2Fmanifest.json/series/tvdb.genres?genre=Drama"
+      },
+      {
+        "name": "Crime",
+        "category": "Genres",
+        "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb11959c7-94fd-4fd2-aa24-6655c4fd7164%2Fmanifest.json/series/tvdb.genres?genre=Crime"
+      },
+      {
+        "name": "Thriller",
+        "category": "Genres",
+        "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb11959c7-94fd-4fd2-aa24-6655c4fd7164%2Fmanifest.json/series/tvdb.genres?genre=Thriller"
+      },
+      {
+        "name": "Mystery",
+        "category": "Genres",
+        "url": "stremio:///discover/https%3A%2F%2Faiometadata.elfhosted.com%2Fstremio%2Fb11959c7-94fd-4fd2-aa24-6655c4fd7164%2Fmanifest.json/series/tvdb.genres?genre=Mystery"
+      },
+      {
+        "name": "Mariska Hargitay",
+        "category": "Cast",
+        "url": "stremio:///search?search=Mariska%20Hargitay"
+      },
+      {
+        "name": "Ice-T",
+        "category": "Cast",
+        "url": "stremio:///search?search=Ice-T"
+      },
+      {
+        "name": "Peter Scanavino",
+        "category": "Cast",
+        "url": "stremio:///search?search=Peter%20Scanavino"
+      },
+      {
+        "name": "Kelli Giddish",
+        "category": "Cast",
+        "url": "stremio:///search?search=Kelli%20Giddish"
+      },
+      {
+        "name": "Aimé Donna Kelly",
+        "category": "Cast",
+        "url": "stremio:///search?search=Aim%C3%A9%20Donna%20Kelly"
+      },
+      {
+        "name": "Kevin Kane",
+        "category": "Cast",
+        "url": "stremio:///search?search=Kevin%20Kane"
+      },
+      {
+        "name": "Corey Cott",
+        "category": "Cast",
+        "url": "stremio:///search?search=Corey%20Cott"
+      },
+      {
+        "name": "Octavio Pisano",
+        "category": "Cast",
+        "url": "stremio:///search?search=Octavio%20Pisano"
+      },
+      {
+        "name": "Juliana Aidén Martinez",
+        "category": "Cast",
+        "url": "stremio:///search?search=Juliana%20Aid%C3%A9n%20Martinez"
+      },
+      {
+        "name": "Molly Burnett",
+        "category": "Cast",
+        "url": "stremio:///search?search=Molly%20Burnett"
+      }
+    ],
+    "behaviorHints": {
+      "defaultVideoId": null,
+      "hasScheduledVideos": true
+    },
+    "app_extras": {
+      "cast": [
+        {
+          "name": "Mariska Hargitay",
+          "character": "Olivia Benson",
+          "photo": "https://artworks.thetvdb.com/banners/actors/63dd7c7cb8398.jpg"
+        },
+        {
+          "name": "Ice-T",
+          "character": "Fin Tutuola",
+          "photo": "https://artworks.thetvdb.com/banners/actors/63dd7c910a065.jpg"
+        },
+        {
+          "name": "Peter Scanavino",
+          "character": "Dominick Carisi Jr.",
+          "photo": "https://artworks.thetvdb.com/banners/person/316963/63dd7ca70c468.jpg"
+        },
+        {
+          "name": "Kelli Giddish",
+          "character": "Amanda Rollins",
+          "photo": "https://artworks.thetvdb.com/banners/actors/303281.jpg"
+        },
+        {
+          "name": "Aimé Donna Kelly",
+          "character": "Renee Curry",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/8044688/photo/6646f8fcd95e2.jpg"
+        },
+        {
+          "name": "Kevin Kane",
+          "character": "Terry Bruno",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/339938/photo/68e10993ef6c4.jpg"
+        },
+        {
+          "name": "Corey Cott",
+          "character": "Jake Griffin",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/538119/photo/69666f76e069c.jpg"
+        },
+        {
+          "name": "Octavio Pisano",
+          "character": "Joe Velasco",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/646933/photo/63dd7cc43ea04.jpg"
+        },
+        {
+          "name": "Juliana Aidén Martinez",
+          "character": "Kate Silva",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/8195461/photo/67b32b0beab6c.jpg"
+        },
+        {
+          "name": "Molly Burnett",
+          "character": "Grace Muncy",
+          "photo": "https://artworks.thetvdb.com/banners/v4/actor/569528/photo/635576443c9fe.jpg"
+        }
+      ],
+      "directors": [],
+      "writers": [],
+      "seasonPosters": [
+        "https://artworks.thetvdb.com/banners/seasons/75692-0-2.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-1-4.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/334-2.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/334-3.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/9202/posters/60b8e011b1cfc.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/9203/posters/60b8e03e1a7cb.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/9204/posters/60b8e06254601.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/9205/posters/60b8e0a1179cc.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/16561/posters/60b8e122e9292.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-9-2.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-10.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-11.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-12.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-13.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-14-2.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-15.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-16.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/75692-17.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/670814/posters/605913e396af7.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/716941/posters/60b8e51c6a5c3.jpg",
+        "https://artworks.thetvdb.com/banners/series/75692/seasons/769035/posters/5f3c4e50e03b4.jpg",
+        "https://artworks.thetvdb.com/banners/seasons/5dab578171cef.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/1860898/posters/63f3a710dd947.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/1942108/posters/63f3a73d713df.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/2007817/posters/6329369557574.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/2074179/posters/65ab1b0871565.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/2136358/posters/6700174a872de.jpg",
+        "https://artworks.thetvdb.com/banners/v4/season/2197783/posters/68d5f96448f5f.jpg"
+      ],
+      "certification": "TV-14",
+      "certificationLocal": "14"
+    },
+    "_tmdbId": "2734",
+    "_tvdbId": "75692",
+    "_imdbId": "tt0203259"
+  }
+}
