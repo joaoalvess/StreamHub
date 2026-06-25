@@ -3,6 +3,7 @@ import SwiftUI
 
 struct MediaItem: Identifiable, Hashable {
     let id: UUID
+    let contentId: String?
     let title: String
     let kind: Kind
     let genres: [String]
@@ -15,14 +16,39 @@ struct MediaItem: Identifiable, Hashable {
     let progress: Double?
     let episodeLabel: String?
     let tint: Color?
+    let ageRating: AgeRating?
 
     enum Kind: String {
         case movie
         case series
+        case anime
+    }
+
+    enum AgeRating: String {
+        case l = "L"
+        case ten = "10"
+        case twelve = "12"
+        case fourteen = "14"
+        case sixteen = "16"
+        case eighteen = "18"
+
+        var label: String { rawValue }
+
+        var color: Color {
+            switch self {
+            case .l: return Color(hex: 0x3AAA35)
+            case .ten: return Color(hex: 0x0A75BD)
+            case .twelve: return Color(hex: 0xF4B400)
+            case .fourteen: return Color(hex: 0xF07F09)
+            case .sixteen: return Color(hex: 0xE1141D)
+            case .eighteen: return Color(hex: 0x1A1A1A)
+            }
+        }
     }
 
     init(
         id: UUID = UUID(),
+        contentId: String? = nil,
         title: String,
         kind: Kind,
         genres: [String],
@@ -34,9 +60,11 @@ struct MediaItem: Identifiable, Hashable {
         serviceBadge: String? = nil,
         progress: Double? = nil,
         episodeLabel: String? = nil,
-        tint: Color? = nil
+        tint: Color? = nil,
+        ageRating: AgeRating? = nil
     ) {
         self.id = id
+        self.contentId = contentId
         self.title = title
         self.kind = kind
         self.genres = genres
@@ -49,5 +77,6 @@ struct MediaItem: Identifiable, Hashable {
         self.progress = progress
         self.episodeLabel = episodeLabel
         self.tint = tint
+        self.ageRating = ageRating
     }
 }
