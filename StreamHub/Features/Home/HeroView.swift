@@ -1,8 +1,12 @@
 import SwiftUI
 
+enum HeroControl: Hashable {
+    case play, add, info, next
+}
+
 struct HeroView: View {
     let items: [MediaItem]
-    var heroFocused: FocusState<Bool>.Binding? = nil
+    var focusedControl: FocusState<HeroControl?>.Binding? = nil
     var heroTint: Binding<Color>? = nil
     @State private var index = 0
 
@@ -18,8 +22,39 @@ struct HeroView: View {
         switch item.kind {
         case .series:
             return genres.isEmpty ? "Programa de TV" : "Programa de TV · " + genres
-        case .movie:
+        case .movie, .anime:
             return genres
+        }
+    }
+
+    @ViewBuilder
+    private func metadataRow(for item: MediaItem) -> some View {
+        HStack(spacing: 10) {
+            if let badge = item.serviceBadge {
+                serviceMark(badge)
+                Text("·")
+                    .foregroundStyle(Theme.textSecondary)
+            }
+            Text(metadataLine(for: item))
+                .foregroundStyle(Theme.textPrimary)
+            if let rating = item.ageRating {
+                AgeRatingBadge(rating: rating)
+            }
+        }
+        .font(Theme.Font.meta)
+    }
+
+    @ViewBuilder
+    private func serviceMark(_ badge: String) -> some View {
+        if badge == "tv" {
+            HStack(spacing: 3) {
+                Image(systemName: "apple.logo")
+                Text("tv+")
+            }
+            .foregroundStyle(Theme.textPrimary)
+        } else {
+            Text(badge)
+                .foregroundStyle(Theme.textPrimary)
         }
     }
 
@@ -29,7 +64,7 @@ struct HeroView: View {
     }
 
     var body: some View {
-        ZStack(alignment: .bottomLeading) {
+        ZStack(alignment: .leading) {
             backdrop
 
             Theme.heroGradientVertical
@@ -37,6 +72,7 @@ struct HeroView: View {
 
             if let item = current {
                 infoBlock(for: item)
+                    .offset(y: 30)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -59,7 +95,7 @@ struct HeroView: View {
                         .frame(width: 8, height: 8)
                 }
             }
-            .padding(.bottom, 28)
+            .padding(.bottom, Theme.Metrics.heroOverlap - Theme.Metrics.rowSpacing + 5)
             .animation(.easeInOut(duration: 0.2), value: index)
         }
     }
@@ -107,92 +143,120 @@ struct HeroView: View {
                     .foregroundStyle(Theme.textPrimary)
             }
 
-            Text(metadataLine(for: item))
-                .font(Theme.Font.meta)
-                .foregroundStyle(Theme.textPrimary)
+            metadataRow(for: item)
 
             Text(item.synopsis)
                 .font(Theme.Font.meta)
                 .foregroundStyle(Theme.textSecondary)
-                .lineLimit(3)
-                .frame(maxWidth: 720, alignment: .leading)
+                .lineLimit(2)
+                .frame(maxWidth: 640, alignment: .leading)
 
             ctaRow(for: item)
                 .padding(.top, 8)
         }
         .padding(.leading, Theme.Metrics.edgeH)
-        .padding(.bottom, Theme.Metrics.edgeH)
         .padding(.trailing, Theme.Metrics.edgeH)
         .frame(maxWidth: .infinity, alignment: .leading)
     }
 
     @ViewBuilder
     private func ctaRow(for item: MediaItem) -> some View {
-        HStack(spacing: 24) {
-            Button(action: {}) {
-                Text("Reproduzir")
-            }
-            .buttonStyle(HeroButtonStyle(shape: .capsule))
-            .prefersDefaultFocus(in: heroFocus)
-            .heroFocusTracked(heroFocused)
+        GlassEffectContainer(spacing: 20) {
+            HStack(spacing: 24) {
+                Button(action: {}) {
+                    HStack(spacing: 10) {
+                        Image(systemName: "play.fill")
+                        Text("Reproduzir")
+                    }
+                }
+                .buttonStyle(HeroButtonStyle(shape: .capsule, isActive: isActive(.play)))
+                .prefersDefaultFocus(in: heroFocus)
+                .heroControlFocus(focusedControl, .play)
 
-            circleButton(symbol: "plus", action: {})
-            circleButton(symbol: "info.circle", action: {})
-            circleButton(symbol: "chevron.right", action: advance)
+                circleButton(symbol: "plus", control: .add, action: {})
+                circleButton(symbol: "info.circle", control: .info, action: {})
+                circleButton(symbol: "chevron.right", control: .next, action: advance)
+            }
+            .focusScope(heroFocus)
         }
-        .focusScope(heroFocus)
+    }
+
+    private func isActive(_ control: HeroControl) -> Bool {
+        focusedControl?.wrappedValue == control
     }
 
     @ViewBuilder
-    private func circleButton(symbol: String, action: @escaping () -> Void) -> some View {
+    private func circleButton(symbol: String, control: HeroControl, action: @escaping () -> Void) -> some View {
         Button(action: action) {
             Image(systemName: symbol)
         }
-        .buttonStyle(HeroButtonStyle(shape: .circle))
-        .heroFocusTracked(heroFocused)
+        .buttonStyle(HeroButtonStyle(shape: .circle, isActive: isActive(control)))
+        .heroControlFocus(focusedControl, control)
     }
 }
 
 private struct HeroButtonStyle: ButtonStyle {
     enum Shape { case capsule, circle }
     var shape: Shape
-
-    @Environment(\.isFocused) private var isFocused
+    var isActive: Bool
 
     func makeBody(configuration: Configuration) -> some View {
-        let active = isFocused
-        return Group {
+        Group {
             switch shape {
             case .capsule:
                 configuration.label
                     .font(.system(size: 26, weight: .semibold))
-                    .foregroundStyle(active ? Color.black : Theme.textPrimary)
+                    .foregroundStyle(isActive ? Color.black : Theme.textPrimary)
                     .padding(.horizontal, 40)
                     .padding(.vertical, 18)
-                    .background(
-                        Capsule().fill(active ? AnyShapeStyle(Theme.fill) : AnyShapeStyle(Color.clear))
-                    )
+                    .modifier(HeroGlassBackground(isActive: isActive, shape: Capsule()))
             case .circle:
                 configuration.label
                     .font(.system(size: 28, weight: .semibold))
-                    .foregroundStyle(active ? Color.black : Theme.textPrimary)
+                    .foregroundStyle(isActive ? Color.black : Theme.textPrimary)
                     .frame(width: 64, height: 64)
-                    .background(
-                        Circle().fill(active ? AnyShapeStyle(Theme.fill) : AnyShapeStyle(Color.clear))
-                    )
+                    .modifier(HeroGlassBackground(isActive: isActive, shape: Circle()))
             }
         }
-        .scaleEffect(configuration.isPressed ? 1.04 : (active ? 1.08 : 1.0))
-        .animation(.easeOut(duration: 0.18), value: active)
+        .scaleEffect(configuration.isPressed ? 1.04 : (isActive ? 1.08 : 1.0))
+        .animation(.easeOut(duration: 0.18), value: isActive)
         .animation(.easeOut(duration: 0.12), value: configuration.isPressed)
+    }
+}
+
+private struct HeroGlassBackground<S: Shape>: ViewModifier {
+    var isActive: Bool
+    var shape: S
+
+    @ViewBuilder
+    func body(content: Content) -> some View {
+        if isActive {
+            content.background(shape.fill(Theme.fill))
+        } else {
+            content.glassEffect(.clear, in: shape)
+        }
+    }
+}
+
+private struct AgeRatingBadge: View {
+    let rating: MediaItem.AgeRating
+
+    var body: some View {
+        Text(rating.label)
+            .font(.system(size: 20, weight: .bold))
+            .foregroundStyle(.white)
+            .frame(minWidth: 28)
+            .padding(.horizontal, 7)
+            .padding(.vertical, 3)
+            .background(rating.color, in: RoundedRectangle(cornerRadius: 6, style: .continuous))
     }
 }
 
 private extension View {
     @ViewBuilder
-    func heroFocusTracked(_ binding: FocusState<Bool>.Binding?) -> some View {
+    func heroControlFocus(_ binding: FocusState<HeroControl?>.Binding?, _ control: HeroControl) -> some View {
         if let binding {
-            focused(binding)
+            focused(binding, equals: control)
         } else {
             self
         }
