@@ -45,8 +45,6 @@ private struct CardLabel: View {
             }
             .frame(width: Theme.Size.wideCardWidth, height: Theme.Size.wideCardHeight)
 
-            PlayGlyph(isFocused: isFocused)
-
             VStack {
                 Spacer()
                 HStack {
@@ -67,31 +65,6 @@ private struct CardLabel: View {
         .frame(width: Theme.Size.wideCardWidth, height: Theme.Size.wideCardHeight)
         .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.card, style: .continuous))
         .liquidGlassFocusBorder(isFocused)
-    }
-}
-
-private struct PlayGlyph: View {
-    let isFocused: Bool
-
-    private var diameter: CGFloat { isFocused ? 84 : 64 }
-
-    var body: some View {
-        ZStack {
-            Circle()
-                .fill(.ultraThinMaterial)
-                .environment(\.colorScheme, .dark)
-            Circle()
-                .fill(Color.black.opacity(isFocused ? 0.25 : 0.35))
-            Circle()
-                .strokeBorder(Color.white.opacity(isFocused ? 0.9 : 0.45), lineWidth: isFocused ? 2 : 1)
-
-            Image(systemName: "play.fill")
-                .font(.system(size: diameter * 0.4, weight: .bold))
-                .foregroundStyle(Theme.textPrimary)
-                .offset(x: diameter * 0.03)
-        }
-        .frame(width: diameter, height: diameter)
-        .shadow(color: .black.opacity(isFocused ? 0.45 : 0), radius: 12, y: 6)
     }
 }
 

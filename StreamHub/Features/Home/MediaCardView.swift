@@ -22,8 +22,9 @@ struct PosterCard: View {
     var body: some View {
         poster
             .frame(width: Theme.Size.posterWidth, height: Theme.Size.posterHeight)
-            .overlay { Theme.genreScrim }
-            .overlay(alignment: .bottomLeading) { genreLabel }
+            .overlay { Theme.genreScrim.opacity(isFocused ? 1 : 0) }
+            .overlay(alignment: .bottom) { genreLabel.opacity(isFocused ? 1 : 0) }
+            .animation(.easeInOut(duration: 0.2), value: isFocused)
             .overlay(alignment: .topLeading) { rankNumeral }
             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.card, style: .continuous))
             .liquidGlassFocusBorder(isFocused)
@@ -52,8 +53,8 @@ struct PosterCard: View {
 
     @ViewBuilder
     private var genreLabel: some View {
-        if let genre = item.genres.first {
-            Text(genre)
+        if let label = (item.kind == .anime ? item.title : item.genres.first) {
+            Text(label)
                 .font(.system(size: 20, weight: .semibold))
                 .foregroundStyle(Theme.textPrimary)
                 .lineLimit(1)
